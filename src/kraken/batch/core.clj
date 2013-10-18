@@ -1,7 +1,7 @@
 (ns kraken.batch.core
   (:require [clojure.string :as str]
             [cascalog.api :refer :all]
-            [elastisch.]))
+            [clojurewerkz.elastisch.native :as es]))
 
 (require '[cascalog.cascading.io :refer [with-log-level]])
 

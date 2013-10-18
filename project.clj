@@ -11,7 +11,7 @@
                  [clojurewerkz/elastisch "1.2.0"]
                  [clj-time "0.6.0"]
                  [cascalog/cascalog-core "2.0.0-SNAPSHOT"]
-                 [clojurewerkz/elastisch "1.0.2"]]
+                 [clojurewerkz/elastisch "1.3.0-beta5"]]
   
   :profiles { :dev {:dependencies [[org.apache.hadoop/hadoop-core "1.1.2"]]}}
   :plugins [[lein-ring "0.8.5"]]
